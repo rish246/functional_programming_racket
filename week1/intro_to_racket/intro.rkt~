@@ -1,0 +1,11 @@
+; this is a comment and it will always will be a comment
+
+#lang racket
+
+(define x 5) ; (define is like val binding)
+
+(define max_of_two
+  (lambda (x y)
+    (if x < y
+        x
+        y)))
